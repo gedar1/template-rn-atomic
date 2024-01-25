@@ -7,7 +7,7 @@ import { colors } from '@colors/';
 
 export default function App() {
   const handlePress = () => {
-    console.log('hooola')
+    console.log('en handlePress')
   }
   return (
     <View style={styles.container}>
