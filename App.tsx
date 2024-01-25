@@ -12,17 +12,19 @@ export default function App() {
   return (
     <View style={styles.container}>
       <ViewBasic style={styles.viewbasic}>
-      <TextBasic> Hola a </TextBasic>
+      <TextBasic message='Text Basic'/>
       </ViewBasic>
+      <ViewBasic style={styles.viewButton}>
       <ButtonBasic 
       title='Click me'
       color={colors.primary.base}
       handleOnPress={handlePress}
       />
+      </ViewBasic>
       <PressableBasic
       style= {styles.pressableStyle}
       >
-      <TextBasic> Pressable </TextBasic>
+      <TextBasic message='Pressable'/>
       </PressableBasic>
       <StatusBar style="auto" />
     </View>
@@ -40,6 +42,11 @@ const styles = StyleSheet.create({
     marginTop:10,
     borderRadius:10,
     backgroundColor:colors.blue_Rgba_050
+  },
+  viewButton:{
+    marginTop:10,
+    borderRadius:10,
+    
   },
   pressableStyle:{
     marginTop:10,

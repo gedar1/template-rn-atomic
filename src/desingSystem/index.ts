@@ -1,2 +1,2 @@
-export * from './components/atoms/StyledViewBasic';
-export * from './styledSystem';
+export * from './colors/colors';
+export * from './text/text';

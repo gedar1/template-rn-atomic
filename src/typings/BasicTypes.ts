@@ -7,8 +7,9 @@ export interface IViewBasic {
 }
 
 export interface ITextBasic {
-    children: ReactNode;
+    children?: ReactNode;
     style?:StyleProp<TextStyle>
+    message:string
 }
 
 export interface IButtonBasic {
