@@ -15,6 +15,9 @@
       "@colors/": ["src/desingSystem/colors/colors"],
       "@text/": ["src/desingSystem/text/text"],
       "@styledAtoms/": ["src/desingSystem/components/atoms/"],
+      "@hooks/": ["src/hooks/"],
+      "@context/": ["src/context/"],
+      "@screens/": ["src/screens/"],
       "@metrics/": ["src/utils/helpers/metrics"]
     }
   }
