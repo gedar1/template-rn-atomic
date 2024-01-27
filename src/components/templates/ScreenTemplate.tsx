@@ -16,7 +16,7 @@ export const ScreenTemplate = () => {
       </ViewBasic>
       <ViewBasic style={styles.viewButton}>
       <ButtonBasic 
-      title='Click me'
+      title='Click Me'
       color={colors.primary.base}
       handleOnPress={handlePress}
       />
