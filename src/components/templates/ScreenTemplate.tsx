@@ -2,12 +2,15 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
 import {ButtonBasic, TextBasic,ViewBasic, PressableBasic} from '@atoms/';
 import { colors } from '@colors/';
+import { getInfo } from '@services/';
 
 
 
 export const ScreenTemplate = () => {
   const handlePress = () => {
     console.log('en handlePress')
+
+    getInfo()
   }
   return (
     <View style={styles.container}>
@@ -33,7 +36,8 @@ export const ScreenTemplate = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    width:'80%',
+    height:'80%',
     backgroundColor:colors.white,
     alignItems: 'center',
     justifyContent: 'center',
