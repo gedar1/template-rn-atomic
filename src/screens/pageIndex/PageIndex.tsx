@@ -20,9 +20,8 @@ const PageIndex = () => {
 
 const styles = StyleSheet.create({
   container: {
+    flex:1,
     backgroundColor:'aqua',
-    width:'80%',
-    height: '80%',
     alignItems: 'center',
     justifyContent: 'center',
   }, 
